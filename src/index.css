@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Ubuntu';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  font-family: -apple-system, BlinkMacSystemFont,'Ubuntu';
+  width: 100%;
+  height: 100%;
+}

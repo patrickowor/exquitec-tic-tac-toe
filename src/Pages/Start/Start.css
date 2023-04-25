@@ -1,0 +1,78 @@
+body {
+    color : white;
+    background: linear-gradient(to right,rgb(86, 86, 248), rgb(254, 0, 144));
+    height: 100vh;
+    overflow-x: hidden;
+}
+.startbutton:hover {
+    padding-inline: 40px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    font-size: xx-large;
+}
+
+.startbutton:hover .startimg {
+    width: 65px;
+    height: 65px;
+}
+
+.startbutton {
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    background-color: whitesmoke;
+    color :blue;
+    font-weight: 900;
+    font-size: x-large;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.433);
+
+    display: flex;
+    flex-direction: row;
+    padding-block: 0px;
+    padding-top: 4px;
+    padding-inline: 35px;
+}
+.startmain{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    height: 100vh;
+}
+.startimgdiv{
+    display: inline-block;
+    /* background-color: green; */
+}
+
+
+
+.starttext{
+    height: 50px;
+    padding-top: 15px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.startimg {
+    display: block;
+    /* background-color: red; */
+
+    background: linear-gradient(to right,rgb(86, 86, 248), rgb(254, 0, 144));
+    
+    -webkit-mask-image: url(./startarrow.svg);
+    mask-image: url(./startarrow.svg);
+    mask-size: cover;
+    -webkit-mask-size: cover;
+    width: 50px;
+    height: 50px;
+}
+.starttitle{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;
+}

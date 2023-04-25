@@ -1,0 +1,49 @@
+.teamBody {
+    width: 50%;
+    height: max-content;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: rgb(51, 51, 255);
+    padding: 20px;
+}
+
+.teamCreate{
+    font-size: larger;
+    font-weight: bolder;
+    text-shadow: 2px;
+    text-transform: capitalize ;
+    letter-spacing: 2px;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+.teamCreate:hover {
+    opacity: 0.8;
+    font-weight: 900;
+    font-size: x-large;
+}
+.teamJoin{
+    color: grey;
+    width: 100%;
+    text-transform: capitalize ;
+    border-bottom: 1px solid grey;
+    text-align: right;
+}
+.teamList{
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+
+.teamDiv{
+    cursor: pointer;
+    border-radius: 10px;
+    margin-block: 2px;
+    padding: 10px;
+    padding-inline: 10px;
+}
+.teamDiv:hover{
+    background-color: rgba(145, 151, 159, 0.398);
+    font-weight: bolder;
+}
