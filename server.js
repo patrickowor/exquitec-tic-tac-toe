@@ -65,3 +65,4 @@ app.use("static/", express.static("build/static"))
 server.listen(port, host , ()=> {
     console.log(`app running on port http://${host}:${port}`);
 })
+module.exports = app;
